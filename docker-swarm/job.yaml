@@ -31,7 +31,7 @@ spec:
           IMAGES=$(cat images.yaml | jq -R . | jq -s .)
 
           #Construct payload
-          PAYLOAD="{"\"imageList"\": $IMAGES, "\"account"\": "\"dev"\"}"
+          PAYLOAD="{"\"imageList"\": $IMAGES, "\"account"\": "\"production"\"}"
           echo payload is $PAYLOAD
 
           #Send payload to webhook
