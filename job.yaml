@@ -17,7 +17,7 @@ spec:
           chmod +x /usr/local/bin/argocd
           
           argopassword=$(kubectl get secret argocd-initial-admin-secret -o jsonpath='{.data.password}' | base64 -d)
-          argocd login argocd-oescluster.aoa.oes.opsmx.org --username=admin --password=$argopassword --grpc-web
+          argocd login argocd-ops.autopilot.opsmx.com --username=admin --password=$argopassword --grpc-web
           
           hostvalue=$(echo ${HOSTNAME::-6})
           sleep 10
@@ -34,7 +34,7 @@ spec:
           echo payload is $PAYLOAD
 
           #Send payload to webhook
-          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" https://ssd-demooct-opa.autopilot.opsmx.com/api/v1/dataCollection
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" https://ops-opa.autopilot.opsmx.com/api/v1/dataCollection
 
       restartPolicy: Never
   backoffLimit: 1
