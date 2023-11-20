@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         app: nginx
+        ssd.admissionreview.accountname: dev
+        ssd.admissionreview.appname: backend-nginx-app        
     spec:
       containers:
       - name: nginx
