@@ -4,5 +4,5 @@ resources:
 - deployment.yaml
 #- job.yaml
 images:
-- name: docker.io/opsmx11/docker-swarm
-  newTag: 8a93f07-399
+- name: docker.io/opsmx11/docker-swarm-production
+  newTag: 9afc2f8-403
