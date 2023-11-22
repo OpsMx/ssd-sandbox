@@ -5,4 +5,4 @@ resources:
 - job.yaml
 images:
 - name: docker.io/opsmx11/docker-swarm
-  newTag: 51c3d0a-394
+  newTag: 51c3d0a-395
