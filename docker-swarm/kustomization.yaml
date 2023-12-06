@@ -5,4 +5,4 @@ resources:
 - job.yaml
 images:
 - name: opsmx11/docker-swarm-production
-  newTag: f76bf00-462
+  newTag: f76bf00-471
