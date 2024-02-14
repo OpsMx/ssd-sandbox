@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         app: record-service
-        ssd.admissionreview.accountname: dev
+        ssd.admissionreview.accountname: production
         ssd.admissionreview.appname: record-service
     spec:
       containers:
