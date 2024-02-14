@@ -6,4 +6,4 @@ images:
 - name: opsmx11/record-service-dev
   newTag: cb1ce7b-14
 - name: opsmx11/record-service-production
-  newTag: 0b31476-15
+  newTag: 0b31476-16
