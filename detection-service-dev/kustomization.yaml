@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/docker-swarm-dev
-  newTag: 6b628f7-25
+- name: opsmx11/detection-service-dev
+  newTag: 4ed8813-1
