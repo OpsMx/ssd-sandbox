@@ -18,4 +18,4 @@ spec:
     spec:
       containers:
       - name: record-service
-        image: opsmx11/student-record-management:2e30cdd-7
+        image: opsmx11/student-record-management-dev:2e30cdd-8
