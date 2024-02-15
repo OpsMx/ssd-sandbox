@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/mongo-service-dev
-  newTag: 9425b27-2
+  newTag: 9425b27-5
