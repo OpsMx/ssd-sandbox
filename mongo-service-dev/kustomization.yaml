@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/record-service-dev
-  newTag: cb1ce7b-14
+- name: opsmx11/mongo-service-dev
+  newTag: 9425b27-2
