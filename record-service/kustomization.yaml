@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/record-service-production
-  newTag: 0b31476-17
+  newTag: 0b31476-18
