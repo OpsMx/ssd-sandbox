@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/spring-service-production
-  newTag: 0373c59-2
+  newTag: 8030954-4
