@@ -14,7 +14,7 @@ spec:
       labels:
         app: scout-service
         ssd.admissionreview.accountname: dev
-        ssd.admissionreview.appname: scout-service-dev
+        ssd.admissionreview.appname: scout-service
     spec:
       containers:
       - name: scout-service
