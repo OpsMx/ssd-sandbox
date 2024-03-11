@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/spring-service-dev
-  newTag: 1b4e55a-21
+  newTag: 1b4e55a-23
