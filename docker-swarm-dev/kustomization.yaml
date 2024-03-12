@@ -5,3 +5,5 @@ resources:
 images:
 - name: opsmx11/docker-swarm-dev
   newTag: 6b628f7-40
+- name: opsmx11/docker-swarm-staging
+  newTag: 53854c9-41
