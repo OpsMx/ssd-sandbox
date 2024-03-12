@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/detection-service-dev
-  newTag: 4ed8813-1
+- name: opsmx11/scout-service-dev
+  newTag: a5c60f0-14

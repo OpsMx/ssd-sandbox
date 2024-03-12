@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: record-service
+  name: record-service
+spec:
+  selector:
+    matchLabels:
+      app: record-service
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: record-service
+        ssd.admissionreview.accountname: staging
+        ssd.admissionreview.appname: record-service
+    spec:
+      containers:
+      - name: record-service
+        image: opsmx11/record-service-dev:cb1ce7b-13
