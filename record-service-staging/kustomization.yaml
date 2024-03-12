@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/record-service-dev
-  newTag: 121ccf2-36
+- name: opsmx11/record-service-staging
+  newTag: 121ccf2-37
