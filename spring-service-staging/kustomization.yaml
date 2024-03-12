@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/spring-service-dev
-  newTag: 1b4e55a-25
+- name: opsmx11/spring-service-staging
+  newTag: 1b4e55a-26
