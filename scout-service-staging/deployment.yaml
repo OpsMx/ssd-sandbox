@@ -18,4 +18,4 @@ spec:
     spec:
       containers:
       - name: scout-service
-        image: opsmx11/scout-service-dev:a5c60f0-5
+        image: opsmx11/scout-service-staging:a5c60f0-15
