@@ -18,4 +18,4 @@ spec:
     spec:
       containers:
       - name: record-service
-        image: opsmx11/record-service-dev:cb1ce7b-13
+        image: opsmx11/record-service-staging:121ccf2-37
