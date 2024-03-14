@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/record-service-staging
-  newTag: 121ccf2-39
+  newTag: 121ccf2-40
