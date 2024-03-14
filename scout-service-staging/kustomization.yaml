@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/scout-service-staging
-  newTag: a5c60f0-16
+  newTag: a5c60f0-17
