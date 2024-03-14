@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/spring-service-staging
-  newTag: 1b4e55a-26
+  newTag: 1b4e55a-27
