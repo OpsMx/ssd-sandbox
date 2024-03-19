@@ -4,6 +4,6 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/docker-swarm-dev
-  newTag: 533a79e-62
+  newTag: 533a79e-63
 - name: opsmx11/docker-swarm-staging
   newTag: 53854c9-41
