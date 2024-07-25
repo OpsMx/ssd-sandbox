@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/docker-swarm-production
-  newTag: d313fac-141
+  newTag: d313fac-142
