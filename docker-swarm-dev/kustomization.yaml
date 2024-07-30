@@ -3,7 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/docker-swarm-dev
-  newTag: 47807ba-158
 - name: opsmxssd/docker-swarm-dev
   newTag: d313fac-161
