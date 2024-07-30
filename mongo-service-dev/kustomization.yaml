@@ -5,3 +5,5 @@ resources:
 images:
 - name: opsmx11/mongo-service-dev
   newTag: 0a9bde1-26
+- name: opsmxssd/mongo-service-dev
+  newTag: 0a9bde1-28
