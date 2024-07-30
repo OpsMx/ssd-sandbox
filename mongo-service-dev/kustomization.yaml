@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmxssd/mongo-service-dev
-  newTag: 0a9bde1-28
+  newTag: 0a9bde1-29
