@@ -18,4 +18,4 @@ spec:
     spec:
       containers:
       - name: mongo-service
-        image: opsmx11/mongo-service-dev:9425b27-2
+        image: opsmxssd/mongo-service-dev:0a9bde1-28
