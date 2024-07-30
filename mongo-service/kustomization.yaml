@@ -3,7 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/mongo-service-production
-  newTag: 0a9bde1-27
 - name: opsmxssd/mongo-service-production
   newTag: 0a9bde1-30
