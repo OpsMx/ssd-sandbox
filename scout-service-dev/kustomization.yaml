@@ -3,7 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmx11/scout-service-dev
-  newTag: a5c60f0-19
 - name: opsmxssd/scout-service-dev
   newTag: a5c60f0-22
