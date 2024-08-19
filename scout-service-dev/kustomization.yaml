@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmxssd/scout-service-dev
-  newTag: a5c60f0-22
+  newTag: ea8b351-26
