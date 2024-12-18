@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: docker.io/rajsomesetty/petclinic-pr:48-critical
+          image: docker.io/rajsomesetty/cus-petclinic:48-critical
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: default
