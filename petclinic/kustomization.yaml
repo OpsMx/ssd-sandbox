@@ -4,5 +4,5 @@ resources:
 - petclinic.yml
 - demo-db-secret.yaml
 images:
-- name: docker.io/rajsomesetty/petclinic-pr
+- name: docker.io/rajsomesetty/cus-petclinic
   newTag: 147-nocritical
