@@ -6,4 +6,4 @@ resources:
 - service.yml
 images:
 - name: docker.io/rajsomesetty/cus-petclinic
-  newTag: 13-critical
+  newTag: 14-nocritical
