@@ -7,4 +7,4 @@ images:
 - name: docker.io/rajsomesetty/webgoat-app
   newTag: "91"
 - name: docker.io/rajsomesetty/cus-webgoat
-  newTag: 56-dev
+  newTag: 57-dev
