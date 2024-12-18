@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - petclinic.yml
 - demo-db-secret.yaml
+- service.yml
 images:
 - name: docker.io/rajsomesetty/cus-petclinic
   newTag: 13-critical
