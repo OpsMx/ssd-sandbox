@@ -22,7 +22,7 @@ spec:
         app: webgoat
     spec:
       containers:
-      - image: docker.io/rajsomesetty/webgoat-app:34
+      - image: docker.io/rajsomesetty/cus-webgoat:34
         imagePullPolicy: Always
         name: webgoat-app
         ports:
