@@ -5,4 +5,4 @@ resources:
 - service.yml
 images:
 - name: docker.io/rajsomesetty/cus-webgoat
-  newTag: 63-dev
+  newTag: 66-dev
