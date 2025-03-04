@@ -4,4 +4,4 @@ resources:
 - deploy.yaml
 images:
 - name: docker.io/opsmx11/buildme
-  newTag: 9c5d6d6-38
+  newTag: 9c58198-41
