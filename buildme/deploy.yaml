@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: buildme
+  name: buildme
+spec:
+  selector:
+    matchLabels:
+      app: buildme
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: buildme
+    spec:
+      containers:
+      - name: buildme
+        image: docker.io/opsmx11/buildme:03995d2-37
