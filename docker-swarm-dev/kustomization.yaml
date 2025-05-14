@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: opsmxssd/docker-swarm-dev
+- name: docker.io/opsmxssd/docker-swarm-dev
   newTag: 65ba7cf-273
