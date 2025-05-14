@@ -5,3 +5,5 @@ resources:
 images:
 - name: opsmxssd/docker-swarm-production
   newTag: 65ba7cf-263
+- name: docker.io/opsmxssd/docker-swarm
+  newTag: 65ba7cf-280-dev
