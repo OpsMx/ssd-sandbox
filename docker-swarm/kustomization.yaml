@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: docker.io/opsmxssd/docker-swarm
-  newTag: 5e7f1a7-283-production
+  newTag: 5e7f1a7-284-critical
