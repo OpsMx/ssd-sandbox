@@ -18,4 +18,4 @@ spec:
     spec:
       containers:
       - name: docker-swarm-visualizer
-        image: opsmxssd/docker-swarm-production:65ba7cf-235
+        image: docker.io/opsmxssd/docker-swarm:65ba7cf-280-dev
