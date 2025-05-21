@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: opsmx11/scout-service-production
-  newTag: a5c60f0-20
+  newTag: a5c60f0-8
