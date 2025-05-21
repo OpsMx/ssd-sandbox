@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: docker.io/opsmxssd/docker-swarm-demo-sandbox
-  newTag: da156da-316-noncritical
+  newTag: da156da-317-noncritical
