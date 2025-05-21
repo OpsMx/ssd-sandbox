@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - deployment.yaml
 images:
-- name: docker.io/opsmxssd/docker-swarm
+- name: docker.io/opsmxssd/docker-swarm-demo-sandbox
   newTag: 5e7f1a7-303-critical
