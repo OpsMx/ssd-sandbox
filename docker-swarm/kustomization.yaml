@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: docker.io/opsmxssd/docker-swarm-demo-sandbox
-  newTag: 030a0b0-320-critical
+  newTag: 030a0b0-321-critical
